@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+
+    <style>
+        .cell {
+            background-color: #eee;
+            padding: 0.25em 0.5em;
+            border: dashed 1px navy;
+        }
+
+        .two {
+            background-color: springgreen;
+            /* grid-column-start: 2;
+            grid-column-end: 4;
+            grid-row-start: 2;
+            grid-row-end: 3; */
+        }
+
+        main {
+            background-color:cadetblue;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(2, 2fr 2fr) repeat(2, 4fr 8fr);
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <!-- spellchecker: disable -->
+        <div class="cell">Laboris enim eiusmod cillum ullamco commodo velit ullamco ea ad.</div>
+        <div class="cell two">Laboris enim eiusmod cillum ullamco commodo velit ullamco ea ad.</div>
+        <div class="cell">Laboris enim eiusmod cillum ullamco commodo velit ullamco ea ad.</div>
+        <div class="cell">Laboris enim eiusmod cillum ullamco commodo velit ullamco ea ad.</div>
+        <div class="cell">Laboris enim eiusmod cillum ullamco commodo velit ullamco ea ad.</div>
+        <div class="cell">Laboris enim eiusmod cillum ullamco commodo velit ullamco ea ad.</div>
+        <div class="cell">Laboris enim eiusmod cillum ullamco commodo velit ullamco ea ad.</div>
+        <div class="cell">Laboris enim eiusmod cillum ullamco commodo velit ullamco ea ad.</div>
+        <div class="cell">Laboris enim eiusmod cillum ullamco commodo velit ullamco ea ad.</div>
+        <div class="cell">Laboris enim eiusmod cillum ullamco commodo velit ullamco ea ad.</div>
+        <div class="cell">Laboris enim eiusmod cillum ullamco commodo velit ullamco ea ad.</div>
+        <!-- spellchecker: enable -->
+    </main>
+</body>
+
+</html>

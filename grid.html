@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <style>
+        /* body {
+            width: 800px;
+        } */
+
+        main {
+            /* width: 500px; */
+            background-color: aquamarine;
+            display: grid;
+            /* grid-template-columns: 1fr 1fr 1fr; */
+            grid-template-columns: 100px 100px 100px;
+            grid-template-rows: 200px 100px;
+            /* justify-items: start; */
+            justify-items: end;
+            /* justify-content: center; */
+            /* justify-content: space-evenly; */
+            justify-content: space-around;
+            align-items: stretch;
+            align-content: space-around;
+            height: 500px;
+            border: 1px solid red;
+        }
+
+        .cell {
+            background-color:cadetblue;
+            border: solid 1px black;
+            padding: 0.5em;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>hello</h1>
+    <main>
+        <div class="cell">this is a grid cell</div>
+        <div class="cell">this is a grid cell with a bunch more text inside of it</div>
+        <div class="cell">this is a grid cell</div>
+        <div class="cell">this is a grid cell</div>
+    </main>
+</body>
+
+</html>
